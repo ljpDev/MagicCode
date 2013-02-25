@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--View Controller - HelloWorld-->
+        <!--View Controller - FirstPage-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="BIDViewController" sceneMemberID="viewController">
@@ -27,7 +27,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="PressedMeAction:" destination="2" eventType="touchUpInside" id="5Nh-dK-lt7"/>
+                                    <segue destination="6Sq-GW-AZ2" kind="push" id="w3P-Te-ma6"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sOz-jF-tKA">
@@ -51,7 +51,7 @@
                             <constraint firstItem="ohm-TA-0iR" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="xrN-5g-A6R"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="HelloWorld" id="OZE-v6-Iep"/>
+                    <navigationItem key="navigationItem" title="FirstPage" id="OZE-v6-Iep"/>
                     <connections>
                         <outlet property="lbShowLabel" destination="iTG-LL-GwC" id="F27-yz-H1A"/>
                         <outlet property="tbInputbox" destination="sOz-jF-tKA" id="X1x-YH-36u"/>
@@ -60,6 +60,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="428" y="47"/>
+        </scene>
+        <!--View2 Controller - SecondPage-->
+        <scene sceneID="9mZ-Pj-9fs">
+            <objects>
+                <viewController id="6Sq-GW-AZ2" customClass="BIDView2Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DZb-QN-Az1">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7e-HD-iMG">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J7e-HD-iMG" firstAttribute="top" secondItem="DZb-QN-Az1" secondAttribute="top" constant="20" symbolic="YES" type="default" id="R4a-Ch-URQ"/>
+                            <constraint firstItem="J7e-HD-iMG" firstAttribute="leading" secondItem="DZb-QN-Az1" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="pyd-0d-dVM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="SecondPage" id="QNT-Bo-Vib"/>
+                    <connections>
+                        <outlet property="lbShow" destination="J7e-HD-iMG" id="cN0-Fh-SYQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c0r-QS-qq9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="47"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="K3W-pW-Akp">

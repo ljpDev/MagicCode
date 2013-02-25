@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96AC1FE416DB8F0F003D29FA /* BIDView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC1FE316DB8F0F003D29FA /* BIDView2Controller.m */; };
 		96DE176F16DA5584002CEDD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DE176E16DA5584002CEDD2 /* UIKit.framework */; };
 		96DE177116DA5584002CEDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DE177016DA5584002CEDD2 /* Foundation.framework */; };
 		96DE177316DA5584002CEDD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DE177216DA5584002CEDD2 /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96AC1FE216DB8F0F003D29FA /* BIDView2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDView2Controller.h; sourceTree = "<group>"; };
+		96AC1FE316DB8F0F003D29FA /* BIDView2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDView2Controller.m; sourceTree = "<group>"; };
 		96DE176B16DA5583002CEDD2 /* HelloWorldForNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldForNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DE176E16DA5584002CEDD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96DE177016DA5584002CEDD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +94,8 @@
 				96DE178916DA5584002CEDD2 /* MainStoryboard_iPad.storyboard */,
 				96DE178C16DA5584002CEDD2 /* BIDViewController.h */,
 				96DE178D16DA5584002CEDD2 /* BIDViewController.m */,
+				96AC1FE216DB8F0F003D29FA /* BIDView2Controller.h */,
+				96AC1FE316DB8F0F003D29FA /* BIDView2Controller.m */,
 				96DE177516DA5584002CEDD2 /* Supporting Files */,
 			);
 			path = HelloWorldForNew;
@@ -181,6 +186,7 @@
 				96DE177B16DA5584002CEDD2 /* main.m in Sources */,
 				96DE177F16DA5584002CEDD2 /* BIDAppDelegate.m in Sources */,
 				96DE178E16DA5584002CEDD2 /* BIDViewController.m in Sources */,
+				96AC1FE416DB8F0F003D29FA /* BIDView2Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

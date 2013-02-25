@@ -34,4 +34,14 @@
 
 - (IBAction)EnterReturnAction:(id)sender {
 }
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    NSString *sndData = self.tbInputbox.text;
+    UIViewController *send = segue.destinationViewController;
+    if ([send respondsToSelector:@selector(setData:)])
+    {
+        [send setValue:sndData forKey:@"data"];
+    }
+}
 @end
