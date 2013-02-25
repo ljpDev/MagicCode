@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface BIDViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *tbInputbox;
+@property (strong, nonatomic) IBOutlet UILabel *lbShowLabel;
+- (IBAction)PressedMeAction:(id)sender;
+- (IBAction)EnterReturnAction:(id)sender;
 
 @end

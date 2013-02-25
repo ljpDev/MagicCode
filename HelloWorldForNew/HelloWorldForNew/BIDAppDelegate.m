@@ -7,8 +7,12 @@
 //
 
 #import "BIDAppDelegate.h"
+//#import "DemoViewControler.h" //添加自定义类的头文件。
 
 @implementation BIDAppDelegate
+
+//@synthesize myDemoVC = _myDemoVC;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

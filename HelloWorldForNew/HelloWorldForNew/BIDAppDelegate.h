@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+//@class DemoViewControler;//自定义类的前向声明
+
 @interface BIDAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+//@property (strong,nonatomic) DemoViewControler *myDemoVC;//自定义类的说明
 
 @end

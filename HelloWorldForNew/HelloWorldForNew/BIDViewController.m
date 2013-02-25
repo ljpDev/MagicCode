@@ -26,4 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)PressedMeAction:(id)sender
+{
+    NSString *showStr = [NSString stringWithFormat:@"Hello,%@",self.tbInputbox.text];
+    self.lbShowLabel.text = showStr;
+}
+
+- (IBAction)EnterReturnAction:(id)sender {
+}
 @end
